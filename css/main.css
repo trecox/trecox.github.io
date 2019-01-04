@@ -1,6 +1,9 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: 45px;
+	margin-bottom: 60px;
+	width: 70%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -16,7 +19,9 @@ a {
 	font-size: 1.5em;
     text-decoration: none;
     color: #999;
-	padding-right: 30;
+}
+a+a {
+  margin-left: 10px;
 }
 a:hover {
     text-decoration: underline;
@@ -55,7 +60,7 @@ ul.posts li {
 
 .column {
   flex: 33.33%;
-	padding-top: 0px;
+  padding-top: 0px;
   padding: 3px;
 }
 
