@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.column {
+  float: left;
+  width: 25%;
+  padding: 1px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
