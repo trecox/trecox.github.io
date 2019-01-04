@@ -13,8 +13,10 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 a {
+	font-size: 1.5em;
     text-decoration: none;
     color: #999;
+	padding-right: 30;
 }
 a:hover {
     text-decoration: underline;
@@ -22,6 +24,11 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+h2 {
+	margin: 1px;
 }
 p {
     font-size: 1.5em;
@@ -40,5 +47,15 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+	padding-top: 0px;
+  padding: 3px;
 }
 
