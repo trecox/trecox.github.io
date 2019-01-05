@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="css/main.css" rel="stylesheet" type="text/css">
-<!--
-layout: default
-title: Tevor Cox's website
--->
-<div class="w3-bar w3-black">
-  <a href="http://trevorjcox.com/" class="w3-bar-item w3-button">Home</a>
-  <a href="http://trevorjcox.com/about/" class="w3-bar-item w3-button">Resume</a>
-  <a href="http://trevorjcox.com/blog/" class="w3-bar-item w3-button">Squaw Lift Tracker</a>
-  <a href="http://trevorjcox.com/cv/" class="w3-bar-item w3-button">Books I Love</a>
-</div>
-<div class="blurb">
-	<h1>Hi, I'm Trevor Cox</h1>
-	<h2>aka t.cox</h2>
-	<div class="row">
-		<div class="column">
-			<p class="photoTitle"> Skier </p>
-	  		<img src="images/skier.png" alt = "I'm a very good skier" height="200" width="200">
-			</div>
-		<div class="column">
-			<p class="photoTitle"> Programmer </p>
-  			<img src="images/trecox_pro.png" alt = "I'm a very good programmer " height="200" width="200">
-			</div>
-		<div class = "column">
-  <!--<a href="http://trevorjcox.com/art" class="w3-bar-item w3-button">Artist</a>-->
-			<p class="photoTitle"> Artist </p>
-  			<img src="images/art.png" alt = "I'm a very good artist" height="200" width="200">	
-			</div>
-	</div>
-</div><!-- /.blurb -->
+  <title>Home</title>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<body>
+  <div class="w3-bar w3-black">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="resume/index.html" class="w3-bar-item w3-button">Resume</a>
+    <a href="books_i_love/index.html" class="w3-bar-item w3-button">Books I Love</a>
+    <a href="squaw_lift_tracker/index.html" class="w3-bar-item w3-button">Squaw Lift Tracker</a>
+  </div>
+  <div class="blurb">
+    <h1>Hi, I'm Trevor Cox</h1>
+    <h2>(aka t.cox)</h2>
+    <div class="row">
+      <div class="column">
+        <p class="photoTitle"> Skier </p>
+          <a href="ski_gallery/index.html"> <!-- Bring this to skiings photots-->
+        <img src="images/skier.png" alt = "I'm a very good skier" height="200" width="200">
+      </a>
+      </div>
+      <div class="column">
+        <p class="photoTitle"> Programmer </p>
+        <a href="resume/index.html">
+        <img src="images/trecox_pro.png" alt = "I'm a very good programmer " height="200" width="200">
+      </a>
+      </div>
+      <div class = "column">
+        <p class="photoTitle"> Artist </p>
+        <a href="art_gallery/index.html">
+        <img src="images/art.png" alt = "I'm a very good artist" height="200" width="200">
+      </a>
+      </div>
+    </div>
+  </div>
+  <footer>
+      <div class="footer-copyright">
+        <p>Copyright &copy; 2018 Trevor Cox. All Rights Reserved</p>
+      </div>
+    </footer>
+</body>
 </html>
